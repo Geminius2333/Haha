@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+
+}
+
+ul{
+	margin-top: 25px;
+	padding:0px 0px 0px 50px;
+}
+
+li{
+	list-style-type:none;
+	margin-top:5px;
+}
+
+.backgrounds{
+	width:1366px;
+	height:726px;
+	margin: 0 auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	overflow: hidden;
+	background-color:#d3d3d3 ;
+	filter:alpha(opacity=80); /*支持 IE 浏览器*/
+	-moz-opacity:0.80; /*支持 FireFox 浏览器*/
+	opacity:0.80; /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+
+.persons_table,.messages_table{
+	border:1px solid black;
+	width:1000px
+}
+
+.title{
+    height: 130px;
+    text-align: right;
+    color: white;
+    font-size: 40px;
+       
+}
+
+.title-span{
+    top: 20px;
+    position: relative;
+    margin-right: 40px;
+}
+.user{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.person_div{
+    position: inherit;
+    padding: 100px 0px 0px 0px;
+    margin-left: 500px;
+    width: fit-content;
+    height: 500px;
+}
+
+.list_menu{
+	left:200px;
+	width:250px;
+	float:left;
+	height: -webkit-fill-available;
+    background-color: #020723;
+}
+.list_menu li,.menu_div li{
+	color:#ff6000;
+	font-size:20px;
+	text-decoration: none;
+}
+.list_menu a{
+	color:#f1f1f1;
+	font-size:15px;
+	text-decoration: none;
+}
+
+.page_detail{
+	
+}
+
+.page_detail span{
+	color:black;
+}
+

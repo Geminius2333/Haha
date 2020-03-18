@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+
+}
+ul{
+	margin-top: 25px;
+	padding:0px 0px 0px 50px;
+}
+
+li{
+	list-style-type:none;
+	margin-top:15px;
+}
+.backgrounds{
+	width:1366px;
+	height:726px;
+	margin: 0 auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	overflow: hidden;
+	background-color:#d3d3d3 ;
+}
+
+.title{
+    height: 130px;
+    text-align: right;
+    color: white;
+    font-size: 40px;
+       
+}
+.title-span {
+    top: 20px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.list_menu{
+	left:200px;
+	width:250px;
+	float:left;
+	height: -webkit-fill-available;
+    background-color: #020723;
+    margin-right: 15px;
+}
+.list_menu li{
+	color:#ff6000;
+	font-size: 170%;
+	text-decoration: none;
+}
+.list_menu a{
+	color:#f1f1f1;
+	font-size: 80%;
+	text-decoration: none;
+}
+
+.user{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#pic_update_div{
+    position: relative;
+    left: -100px;
+    width: 500px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.main{
+	background: #fffaf07a;
+	height: -webkit-fill-available;
+}
+
+.picupdate_div{
+	text-align:center;
+}
+
+/***/
+#new_message_div{
+	width:500px;
+	position: relative;
+    left: -100px;
+    width: 500px;
+    margin: auto;
+}
+#message_detail{
+	position: absolute;
+    left: 500px;
+}

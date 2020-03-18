@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+
+}
+
+ul{
+	margin-top: 25px;
+	padding:0px 0px 0px 50px;
+}
+
+li{
+	list-style-type:none;
+	margin-top:15px;
+}
+
+
+.backgrounds{
+	width:1366px;
+	height:726px;
+	margin: 0 auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	overflow: hidden;
+	background-color:#d3d3d3 ;
+}
+
+.persons_table,.messages_table{
+	border:1px solid black;
+	width:1000px
+}
+td,th{
+	//width:150px;
+	border:1px solid black;
+}
+.table_div{
+	height:200px;
+}
+
+.title{
+    height: 130px;
+    text-align: right;
+    color: white;
+    font-size: 40px;
+       
+}
+.title-span {
+    top: 20px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.list_menu{
+	left:200px;
+	width:250px;
+	float:left;
+	height: -webkit-fill-available;
+    background-color: #020723;
+    margin-right: 15px;
+}
+.list_menu li{
+	color:#ff6000;
+	font-size: 170%;
+	text-decoration: none;
+}
+.list_menu a{
+	color:#f1f1f1;
+	font-size: 80%;
+	text-decoration: none;
+}
+
+.user{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.previousPage,.nextPage{
+	margin:0px 170px 0px 170px;	
+}
+.addPerson,.addMessage{
+	text-align:right;
+	width: 95%;
+	margin-bottom:10px;
+}
+#content_text{
+	width:500px;
+	height:150px;
+}
+
+.main{
+	background: #fffaf07a;
+	height: -webkit-fill-available;
+}
+#information{
+	padding:10px;
+}
+.page_detail{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+.page_detail span{
+	color:red;
+	font-size:40px;
+}
+
+.page_footer{
+	 margin-top: 40px;
+}
+
+.personDetail_div{
+    position: relative;
+    margin: auto;
+    width: 900px;
+    margin-top: 75px;
+    text-align: center;
+}
+
+#personDetail{
+    position: relative;
+    margin: auto;
+    left: -100px;
+    text-algin:center;
+    margin-top: 25px;
+}
+
+#personDetail td{
+	height:50px;
+	vertical-align: middle;
+}
+
+#upfile{
+	 position: relative;
+    left: 70px;
+    top: -20px;
+}
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+#new_message_div{
+	    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 700px;
+    top: 200px;
+}
